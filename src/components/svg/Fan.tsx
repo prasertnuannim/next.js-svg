@@ -6,7 +6,7 @@ type FanProps = {
 };
 const Fan: React.FC<FanProps> = ({ isRunning, duration }) => {
     return (
-        <div className="flex flex-col items-center justify-center h-screen gap-6 bg-white">
+        <div className="flex h-full w-full items-center justify-center bg-transparent">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 454 340" className="w-[200px] h-auto">
                 <g id="body">
                     <circle cx="226.65" cy="169.59" r="123.68" fill="#eee" />

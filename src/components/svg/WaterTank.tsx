@@ -7,7 +7,7 @@ type WaterTankProps = {
 
 const WaterTank: React.FC<WaterTankProps> = ({ level }) => {
     return (
-        <Box className="flex flex-col items-center justify-center h-screen gap-8 bg-white">
+        <Box className="flex h-full w-full items-center justify-center">
             {/* SVG */}
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 454 340" className="w-[500px] h-auto">
                 <g id="bg">
